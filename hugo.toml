@@ -1,0 +1,13 @@
+baseURL = "https://hugo-theme-anubis2.netlify.app/"
+languageCode = "en-us"
+theme = "anubis2"
+title = "Jimmy Chan's Blog" 
+
+[params.author]
+name = "Jimmy Chan"
+
+[markup.goldmark.renderer]
+unsafe = true # true | false; Enable unsafe mode to have a better experience
+
+[markup.highlight]
+style = 'base16-snazzy' # Chroma style, find more at here: https://swapoff.org/chroma/playground/
