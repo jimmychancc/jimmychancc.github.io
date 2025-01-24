@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Jimmy Chan's Blog</title><link>/posts/</link><description>Jimmy Chan's Blog (Posts)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 25 Jan 2025 02:15:41 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>First Post</title><link>/posts/first-post/</link><pubDate>Sat, 25 Jan 2025 02:15:41 +0800</pubDate><guid>/posts/first-post/</guid><description>&lt;h1 id="this-is-the-first-page-for-my-blog" >
+&lt;div>
+&lt;a href="#this-is-the-first-page-for-my-blog">
+##
+&lt;/a>
+This is the first page for my blog
+&lt;/div>
+&lt;/h1>
+&lt;h2 id="introduction" >
+&lt;div>
+&lt;a href="#introduction">
+#
+&lt;/a>
+Introduction
+&lt;/div>
+&lt;/h2>
+&lt;p>My name is Jimmy Chan.&lt;/p></description></item></channel></rss>
