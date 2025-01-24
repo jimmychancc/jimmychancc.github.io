@@ -1,4 +1,4 @@
-baseURL = "https://hugo-theme-anubis2.netlify.app/"
+baseURL = "https://jimmychancc.github.io/"
 languageCode = "en-us"
 theme = "anubis2"
 title = "Jimmy Chan's Blog" 
