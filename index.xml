@@ -1,17 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jimmy Chan's Blog</title><link>/</link><description>Jimmy Chan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 25 Jan 2025 02:15:41 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>First Post</title><link>/posts/first-post/</link><pubDate>Sat, 25 Jan 2025 02:15:41 +0800</pubDate><guid>/posts/first-post/</guid><description>&lt;h1 id="this-is-the-first-page-for-my-blog" >
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jimmy Chan's Blog</title><link>/</link><description>Jimmy Chan's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>jimmy000701@gmail.com
+(Jimmy Chan)</managingEditor><lastBuildDate>Sat, 25 Jan 2025 02:15:41 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>[Hugo] Build Hugo Blog and Deploy to GitHub Page</title><link>/posts/hugo-build-hugo-blog-and-deploy-to-github-page/</link><pubDate>Sat, 25 Jan 2025 02:15:41 +0800</pubDate><author>jimmy000701@gmail.com (Jimmy Chan)</author><guid>/posts/hugo-build-hugo-blog-and-deploy-to-github-page/</guid><description>&lt;h3 id="steps" >
 &lt;div>
-&lt;a href="#this-is-the-first-page-for-my-blog">
+&lt;a href="#steps">
 ##
 &lt;/a>
-This is the first page for my blog
+Steps
 &lt;/div>
-&lt;/h1>
-&lt;h2 id="introduction" >
+&lt;/h3>
+&lt;ul>
+&lt;li>Create a repo on GitHub&lt;/li>
+&lt;li>Modify the BaseURL in &lt;code>hugo.toml&lt;/code>&lt;/li>
+&lt;li>Test on local server to create a static page&lt;/li>
+&lt;li>Setup GitHub action to generate static page on Github&lt;/li>
+&lt;li>Push the project to GitHub&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-to-run-static-page-on-local-server" >
 &lt;div>
-&lt;a href="#introduction">
-#
+&lt;a href="#how-to-run-static-page-on-local-server">
+##
 &lt;/a>
-Introduction
+How to run static page on local server
 &lt;/div>
-&lt;/h2>
-&lt;p>My name is Jimmy Chan.&lt;/p></description></item></channel></rss>
+&lt;/h3>
+&lt;p>Once you installed and setup Hugo template on the local serevr, you can enter &lt;code>hugo server -D&lt;/code> to show the website on the local server.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>hugo -D&lt;/code> : Create a &lt;code>public&lt;/code> directory and create a static website&lt;/li>
+&lt;/ul>
+&lt;h3 id="setup-gtihub-actions" >
+&lt;div>
+&lt;a href="#setup-gtihub-actions">
+##
+&lt;/a>
+Setup GtiHub Actions
+&lt;/div>
+&lt;/h3>
+&lt;p>If you want to automatically re-generate a new static page after pushing new content to Github, you can setup Github Action file.&lt;/p>
+&lt;ul>
+&lt;li>Create a directory in your project
+&lt;ul>
+&lt;li>&lt;code>.github/workflows&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Add yml file under the directory&lt;/li>
+&lt;li>Remember to go the Pages in the setting on Github to decide &lt;code>gh-pages&lt;/code> to show page&lt;/li>
+&lt;/ul></description></item></channel></rss>
