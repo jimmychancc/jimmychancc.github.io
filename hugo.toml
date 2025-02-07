@@ -5,6 +5,17 @@ title = "Jimmy Chan's Blog"
 
 [params.author]
 name = "Jimmy Chan"
+email = "jimmy000701@gmail.com"
+location = "Taiwan"
+
+[params]
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+locale = "en-us"
+math = false # true: enable mathjax globally (default is false)
+toc = true
 
 [markup.goldmark.renderer]
 unsafe = true # true | false; Enable unsafe mode to have a better experience
